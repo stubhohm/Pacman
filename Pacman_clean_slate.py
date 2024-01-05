@@ -1,5 +1,5 @@
 #Pacman
-
+#this is a empty template incase I decide to start from scratch
 import pygame, sys
 
 #general setup

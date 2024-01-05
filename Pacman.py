@@ -25,7 +25,7 @@ FPS = 60
 TIMER = 0
 #entity velocity
 VEL = 2
-#this is not needed as far as i know
+#this is not needed as far as i know, but code is a bit of spaghetti so I will leave it for now
 VEL_BANDAID = 1
 #player score
 SCORE = 7810
@@ -424,6 +424,8 @@ def starting_menu(key_released,blinky,clyde,inky,pinky,pacman):
     global LEVEL_UP
     global FRUIT_EATEN
     global INTRO_PLAY
+    global SCORER_NAME
+    global SCORER_EDIT_COLUMN
 
     #here incase a player decides to loop around
     if GAME_START == False:
@@ -440,6 +442,8 @@ def starting_menu(key_released,blinky,clyde,inky,pinky,pacman):
         global START_BLINKY_DELTA_X
         global START_BLINKY_DELTA_Y
         FRUIT_EATEN = True
+        SCORER_NAME = [0,0,0]
+        SCORER_EDIT_COLUMN = 0
 
         #frame counter
     TIMER = TIMER + 1
