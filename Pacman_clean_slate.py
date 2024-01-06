@@ -1,5 +1,5 @@
 #Pacman
-#this is a empty template incase I decide to start from scratch
+#this is a empty template incase I decide to start from scratch, it is currently unused in the main file
 import pygame, sys
 
 #general setup
