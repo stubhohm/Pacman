@@ -1,3 +1,4 @@
+
 import pygame
 import math
 import copy
@@ -188,8 +189,6 @@ INKY_DELTA_Y = 0
 PINKY_DELTA_X = 0
 PINKY_DELTA_Y = 0
 
-
-
 #Ghost Speed Multiplier
 GHOST_SPEED = 1
 
@@ -235,7 +234,7 @@ Clyde_Image_2 = pygame.image.load("Sprites\Clyde\Clyde_2.png")
 Inky_Image_1 = pygame.image.load("Sprites\Inky\Inky_1.png")
 Inky_Image_2 = pygame.image.load("Sprites\Inky\Inky_2.png")
 Pinky_Image_1 = pygame.image.load("Sprites\Pinky\Pinky_1.png")
-Pinky_Image_2 = pygame.image.load("Sprites\Pinky\Pinky_1.png")
+Pinky_Image_2 = pygame.image.load("Sprites\Pinky\Pinky_2.png")
 Frightened_Image_1 = pygame.image.load("Sprites\Frightened\Frightened_1.png")
 Frightened_Image_2 = pygame.image.load("Sprites\Frightened\Frightened_2.png")
 Frightened_Image_3 = pygame.image.load("Sprites\Frightened\Frightened_3.png")
@@ -261,6 +260,7 @@ START_INKY_DELTA_X = 0
 START_INKY_DELTA_Y = 0
 START_PINKY_DELTA_X = 0
 START_PINKY_DELTA_Y = 0
+
 #ghost starting positions
 BLINKY_START_Y = (HEIGHT//2 - (GHOST_HEIGHT/2) - 85)
 BLINKY_START_X = (WIDTH//2 - GHOST_WIDTH/2 +30)
